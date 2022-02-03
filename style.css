@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-color: #b8c6db;
+    justify-content: center;
+    background: url("https://c4.wallpaperflare.com/wallpaper/811/55/791/the-vampire-diaries-paul-wesley-ian-somerhalder-nina-dobrev-wallpaper-preview.jpg") no-repeat center center fixed;
+    background-size: cover;
+    align-items: center;
+    z-index: -1;
+    min-height: 100vh;
+}
+
+.quiz-container  {
+    background-color: whitesmoke;
+    justify-content: center;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+ 
+ul li label {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: blue;
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
